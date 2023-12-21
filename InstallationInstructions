@@ -1,0 +1,44 @@
+If you don't have a C++ compiler and the necessary tools installed on your computer, follow these steps:
+
+1. **Install a C++ Compiler and Tools:**
+   - Depending on your operating system, download and install an appropriate C++ compiler and development environment. For Windows, you can consider tools like Visual Studio or MinGW. For macOS, you can use Xcode Command Line Tools, and for Linux, you can install GCC using your package manager.
+
+2. **Verify Installation:**
+   - Open a Command Prompt (Windows) or Terminal (macOS/Linux).
+   - Type `g++ --version` and press Enter. You should see the version information for the C++ compiler, indicating that it was installed successfully.
+
+To download the repository from GitHub:
+
+1. **Navigate to the GitHub Repository:**
+   - Visit the GitHub repository page containing the source code of the Business Management Menu program.
+
+2. **Download the Repository as a ZIP File:**
+   - Locate the green "Code" button on the repository page, usually located near the upper right side.
+   - Click on the "Code" button, and then select "Download ZIP". This action will download a compressed ZIP file containing all the files and folders from the repository.
+
+3. **Extract the ZIP File:**
+   - Locate the downloaded ZIP file on your computer, typically in the "Downloads" folder. Double-click on the file to extract its contents into a directory/folder of your choice.
+
+4. **Ensure you know the absolute path to the extracted folder:**
+   - This path will be required to navigate to the folder and execute the program.
+
+5. **Open a Command Prompt (Windows) or Terminal (macOS/Linux):**
+   - On Windows, search for "cmd" or "Command Prompt" in the start menu.
+   - On macOS, navigate to the Applications folder and open the Terminal located under Utilities.
+   - On Linux, you can typically open a terminal using a keyboard shortcut or find it in your applications menu.
+
+6. **Navigate to the Extracted Folder:**
+   - Use the `cd` (change directory) command followed by the path to the folder where you extracted the files from the repository.
+   - For example, if you extracted the files to a folder named "business_management" on your desktop, you would type: 
+     ```
+     cd Desktop\business_management
+     ```
+
+7. **Compile and Run the Program:**
+   - Compile the source code using the appropriate command based on your system and tools. For GCC on Linux/macOS, you can use:
+     ```
+     g++ -o finalmenu finalmenu.cpp customerClass.cpp orderClass.cpp transactionClass.cpp workerClass.cpp
+     ```
+   - After successful compilation, execute the program using the generated executable file. The specific command may vary depending on your system, but generally, it will be:
+     - On Windows: `finalmenu.exe`
+     - On macOS/Linux: `./finalmenu`
